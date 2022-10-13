@@ -58,7 +58,7 @@ static string resolveLibraryPath(string &name) {
             StringUtils::replace(name, versionPart, "");
         }
     }
-    std::string libRoot = "/Users/soulghost/Desktop/git/iblessing/iblessing/resource/Frameworks/7.1";
+    std::string libRoot = "/Users/cz42/Projects/xldh-ios/code/xldh-ios/iblessing/resource/Frameworks/7.1";
     if (StringUtils::has_prefix(name, "/System/Library/Frameworks/") ||
         StringUtils::has_prefix(name, "/System/Library/PrivateFrameworks/")) {
         path = libRoot + name;
