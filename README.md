@@ -11,7 +11,7 @@
 
 
 # V3.4.2 version
-1. clone the code to local, and compile the dependencies.
+1. clone the code to local, and use the master branch to compile the dependencies libraries.
 ```
 git clone --recursive -j4 https://github.com/prncoprs/xldh-ios
 cd iblessing
