@@ -9,6 +9,21 @@
 [![Build Status](https://api.travis-ci.com/Soulghost/iblessing.svg?branch=master)](https://travis-ci.com/Soulghost/iblessing)
 [![Releases](https://img.shields.io/github/v/release/Soulghost/iblessing?include_prereleases)](https://github.com/Soulghost/iblessing/releases)
 
+
+# V3.4.2 version
+1. clone the code to local, and compile the dependencies.
+```
+git clone --recursive -j4 https://github.com/prncoprs/xldh-ios
+cd iblessing
+./compile-cmake.sh
+```
+2. checkout the newest version, for now it is dev/v3.4.2
+```
+git checkout dev/v3.4.2
+```
+
+
+
 # V3 版本
 ## 环境配置
 1. clone 项目到本地，切换到 dev/v3 分支，使用 cmake 构建 capstone, keystone, unicorn：
